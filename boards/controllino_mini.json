@@ -21,6 +21,7 @@
     "variant": "Controllino_mini"
   },
   "debug": {
+    "avr_debugger": true,
     "simavr_target": "atmega328p"
   },
   "frameworks": [

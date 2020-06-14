@@ -1,4 +1,7 @@
 {
+  "bootloader": {
+    "led_pin": "B5"
+  },
   "build": {
     "core": "MiniCore",
     "extra_flags": "-DARDUINO_AVR_ATmega328",
@@ -6,10 +9,8 @@
     "mcu": "atmega328",
     "variant": "standard"
   },
-  "bootloader":{
-    "led_pin": "B5"
-  },
   "debug": {
+    "avr_debugger": true,
     "simavr_target": "atmega328"
   },
   "frameworks": [
