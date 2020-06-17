@@ -1,4 +1,7 @@
 {
+  "bootloader": {
+    "led_pin": "B7"
+  },
   "build": {
     "core": "MegaCore",
     "extra_flags": "-DARDUINO_AVR_ATmega2560",
@@ -6,10 +9,10 @@
     "mcu": "atmega2560",
     "variant": "100-pin-arduino-mega"
   },
-  "bootloader":{
-    "led_pin": "B7"
-  },
   "debug": {
+    "avr_debugger": {
+      "speed": 115200
+    },
     "simavr_target": "atmega2560"
   },
   "frameworks": [

@@ -25,6 +25,9 @@
     "variant": "Controllino_maxi_automation"
   },
   "debug": {
+    "avr_debugger": {
+      "speed": 115200
+    },
     "simavr_target": "atmega2560"
   },
   "frameworks": [
